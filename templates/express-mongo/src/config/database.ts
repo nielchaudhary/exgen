@@ -23,7 +23,7 @@ class DB {
     try {
       logger.info(`Connecting to MongoDB...`);
       DB.client = await new MongoClient(mongoURI, { tls: true }).connect();
-      logger.info("liquidns DB Connection Initialised");
+      logger.info("{{PROJECT_NAME}} DB Connection Initialised");
     } catch (error) {
       logger.error(
         "Failed to connect to MongoDB due to : ",

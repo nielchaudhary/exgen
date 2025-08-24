@@ -19,12 +19,12 @@ const initServer = async () => {
 try {
   initServer().then(() => {
     app.listen(PORT, () => {
-      logger.info("liquidns SERVER LIVE ON PORT 8090 🚀");
+      logger.info("{{PROJECT_NAME}} SERVER LIVE ON PORT 8090 🚀");
     });
   });
 } catch (error) {
   logger.error(
-    "Failed to initialise liquidns processes",
+    "Failed to initialise {{PROJECT_NAME}} processes",
     getErrorDetails(error)
   );
   process.exit(1);
