@@ -1,9 +1,9 @@
 {
-  "name": "@nc/express-super-cli",
+  "name": "@layer1hq/exgen",
   "version": "1.0.0",
   "main": "build/app.js",
   "bin": {
-    "super-express-init": "./build/app.js"
+    "exgen-init": "./build/app.js"
   },
   "scripts": {
     "build": "tsc",
@@ -14,7 +14,7 @@
     "cli",
     "express",
     "generator",
-    "super-express-cli",
+    "express-express-cli",
     "boilerplate",
     "typescript",
     "scaffold"
