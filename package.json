@@ -1,6 +1,6 @@
 {
   "name": "@layer1hq/exgen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "build/app.js",
   "bin": {
     "exgen-init": "./build/app.js"
