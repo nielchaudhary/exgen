@@ -83,7 +83,7 @@ npm start       # Run compiled JS
 Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/exgen.git
+git clone https://github.com/nielchaudhary/exgen.git
 cd exgen
 npm install
 npm run build
