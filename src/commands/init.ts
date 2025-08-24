@@ -7,7 +7,7 @@ import { PackageInstaller } from "../utils/installer";
 
 export async function initCommand(): Promise<void> {
   try {
-    console.log(chalk.blue.bold("🚀 Super Express CLI\n"));
+    console.log(chalk.blue.bold("🚀 Exgen CLI\n"));
 
     const config = await getProjectConfig();
     const projectPath = path.join(process.cwd(), config.name);
