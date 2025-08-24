@@ -1,0 +1,23 @@
+{
+  "name": "super-express-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "bin": {
+    "super-express" : "build/app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.0",
+    "chalk": "^5.6.0",
+    "commander": "^14.0.0",
+    "fs-extra": "^11.3.1",
+    "inquirer": "^12.9.3",
+    "typescript": "^5.9.2"
+  }
+}
