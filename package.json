@@ -3,16 +3,25 @@
   "version": "1.0.0",
   "main": "index.js",
   "bin": {
-    "super-express" : "build/app.js"
+    "super-express-init": "build/app.js"
   },
   "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywor ds": [
+    "cli",
+    "express",
+    "generator",
+    "super-express-cli",
+    "boilerplate"
+  ],
+  "author": "neel chaudhary",
   "license": "ISC",
-  "description": "",
+  "description": "A CLI tool to scaffold express + typescript projects quickly",
   "dependencies": {
+    "@types/fs-extra": "^11.0.4",
     "@types/node": "^24.3.0",
     "chalk": "^5.6.0",
     "commander": "^14.0.0",
