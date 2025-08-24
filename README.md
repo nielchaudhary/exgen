@@ -1,5 +1,5 @@
 
-# ExGen ⚡️
+# exgen ⚡️
 
 A CLI tool to **scaffold Express + TypeScript projects** quickly.  
 Generate a production-ready boilerplate with sensible defaults in seconds.
